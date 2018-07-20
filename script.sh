@@ -1,7 +1,7 @@
 #!/bin/bash
+LOG_LEVEL=4
 
 function log ( ) {
-LOG_LEVEL=4
         level=$1
         message=$2
 	if [ "${level}" -gt "${LOG_LEVEL}" ]
