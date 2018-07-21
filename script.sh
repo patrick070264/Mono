@@ -1,5 +1,5 @@
 #!/bin/bash
-LOG_LEVEL=4
+[ ! -v LOG_LEVEL ]  && LOG_LEVEL=6
 
 function log ( ) {
         level=$1
